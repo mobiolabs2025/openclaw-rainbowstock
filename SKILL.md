@@ -1,3 +1,16 @@
+---
+name: stockanalyzer
+description: "AI 주식 분석 서비스. 종목 분석, 포트폴리오 관리, 전략 생성/백테스트, 시그널 알림 등."
+metadata:
+  openclaw:
+    emoji: "📈"
+    requires:
+      bins: ["curl", "jq"]
+    api:
+      endpoint: "https://rainbowstock.net/api/openclaw/tools"
+      auth: "bearer"
+---
+
 # StockAnalyzer Skill
 
 주식 분석 서비스 StockAnalyzer와 연동합니다.
